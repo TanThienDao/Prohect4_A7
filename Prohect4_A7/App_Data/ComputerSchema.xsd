@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ComputerSchema" targetNamespace="http://www.public.asu.edu/~ttdao3/ComputerSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://www.public.asu.edu/~ttdao3/ComputerSchema.xsd"
+    xmlns:mstns="http://www.public.asu.edu/~ttdao3/ComputerSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="Computers">
+
+    <xs:complexType>
+      <xs:sequence maxOccurs="unbounded">
+        <xs:element name="Computer" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Brand" type="xs:string" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="Model" type="xs:string" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="Year" type="xs:string" minOccurs="1" maxOccurs="1"/>
+              <xs:element name="Processor">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Architecture">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Model" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                          <xs:element name="Generation" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                        </xs:sequence>
+                      </xs:complexType>
+
+                    </xs:element>
+                    <xs:element name="Clock" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="Cache" type="xs:string" minOccurs="1" maxOccurs="1"/>
+
+                  </xs:sequence>
+                  <xs:attribute name="Threads" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Storage">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Cache" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+                    <xs:element name="Main" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                    <xs:element name="Harddrive" type="xs:string" minOccurs="1" maxOccurs="1"/>
+
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <!--Optional attribute-->
+      <xs:attribute name="Screen_size" type="xs:float" use="optional"/>
+
+
+
+
+
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

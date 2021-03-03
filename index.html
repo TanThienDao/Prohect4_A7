@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+</head>
+<body>
+
+<style type="text/css">
+table, th, td {border: 1px solid black; border-collapse: collapse;}
+th {height: 30px; font-size: 18px;}
+th {background-color: #a29bfe; color: white;}
+td:nth-child(even) {color:#2f3542 ;background-color: #81ecec;}
+
+</style>
+
+<table style="width:100%">
+  <thead>
+  <tr id="ADDRESS">
+  <th colspan="5"><b>Address: </b><a href="http://192.168.56.1/index.html">Web Home</a></th>
+  </tr>
+  <tr id="TEAM">
+  <th colspan="5"><b>Provider: </b> Thien Tan Dao</th>
+  </tr>
+  <tr id="TEAM">
+  <th colspan="5"><b>Class: </b> CSE 445 Project4 A7</th>
+  </tr>
+  <tr id="REQUIRED">
+  <th style="text-align:left" colspan="5"><b>Services</b></th>
+  </tr>
+  </thead>
+  <thead>
+  <tr>
+    <th style="width:120px">Provider Name</th>
+    <th style="width:300px"> Service name,with input and output types</th>
+    <th style="width:80px">Try It Link</th>
+    <th style="width:300px">Service Description and Location</th>
+    <th style="width:300px">Resources </th>
+  </tr>
+  </thead>
+  
+  
+  <tbody>
+  
+  
+  <tr>
+    <td>Thien Tan Dao</td>
+    <td><b>Verification</b>
+    <br><b>Input: </b>URL of xml and URL of xsd
+    <br><b>Output: </b> result message if the it verify.
+	</td>
+    <td style="text-align:center"><a href="">Try It</a></td>
+    <td style="text-align:center"><p>Web operation verification takes the URL of an XML .xml file and the URL of the
+									corresponding XMLS .xsd file as input and validates the XML file against the corresponding
+									XMLS XSD file. The Web method returns No Error or an error message showing the available
+									information at the error point. You must use files that you created in assignment 7, with and without
+									fault injection, as the test cases. However, your service operation should work for other test cases
+									too. </p>
+    <br><a href="http://webstrar59.fulton.asu.edu/Page0/Service1.svc">Verification</a></td>
+    <td style="text-align:center">XML document<br>
+	<br><a href="http://www.public.asu.edu/~ttdao3/Computer.xml">Computer.xml</a>
+	<br><a href="http://www.public.asu.edu/~ttdao3/Computer.xsd">Computer.xsd</a> </td>
+  </tr>
+  <tr>
+    <td>Thien Tan Dao</td>
+    <td><b>AddComputer</b>
+    <br><b>Input: </b> a list of info Computer want to add
+    <br><b>Output: </b> Message if sucessful add.</td>
+    <td style="text-align:center"><a href="">Try It</a></td>
+    <td style="text-align:center"> 
+			<p>Web operation addComputer modifies the XML file by adding a new computer element into the
+				XML file. You can use multiple parameters or one parameter that contains all the information
+				required for adding a new computer into the tree. The method must work for any tree that conforms
+				with your XML schema file. After the modification, the tree must be saved back to the file in
+				App_Data in your working directory. In the TryIt page, the added contents must be demonstrated.
+			</p>
+    <br><a href="">AddComputer</a></td>
+    <td style="text-align:center">Add Computer.<br><a href="">None</td>
+  </tr>
+ 
+
+
+ 
+  
+  
+  
+  </tbody>
+ 
+
+
+
+</table>
+<div align="center">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="wolf.jpg" alt="IIS7" width="571" height="411" /></a>
+</div>
+
+</body>
+</html>

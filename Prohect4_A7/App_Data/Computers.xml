@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Computers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.public.asu.edu/~ttdao3/Computer.xsd">
+  <Computer Screen_size="15.4">
+    <Brand>Dell</Brand>
+    <Model>Inspiron</Model>
+    <Year>2020</Year>
+    <Processor Threads="8">
+      <Architecture>
+        <Model>i7</Model>
+        <Generation>8</Generation>
+      </Architecture>
+      <Clock>4.8GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>0.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>16G</Main>
+      <Harddrive>1T</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="15.6">
+    <Brand>HP</Brand>
+    <Model>FHD Micro-Edge</Model>
+    <Year>2020</Year>
+    <Processor Threads="8">
+      <Architecture>
+        <Model>i5</Model>
+        <Generation>10</Generation>
+      </Architecture>
+      <Clock>3.6GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>0.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>16G</Main>
+      <Harddrive>512GB</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="15.6">
+    <Brand>Acer</Brand>
+    <Model>Aspire</Model>
+    <Year>2020</Year>
+    <Processor Threads="8">
+      <Architecture>
+        <Model>AMD</Model>
+        <Generation>Ryzen3</Generation>
+      </Architecture>
+      <Clock>3.5GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>0.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>8G</Main>
+      <Harddrive>256GB</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="">
+    <Brand>Acer</Brand>
+    <Model>Nitro</Model>
+    <Year>2020</Year>
+    <Processor Threads="8">
+      <Architecture>
+        <Model>i5</Model>
+        <Generation>9</Generation>
+      </Architecture>
+      <Clock>4.1GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>1G</Cache>
+      <Cache>1.5G</Cache>
+      <Main>8G</Main>
+      <Harddrive>256GB</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="">
+    <Brand>MSI</Brand>
+    <Model>GF75</Model>
+    <Year>2020</Year>
+    <Processor Threads="8">
+      <Architecture>
+        <Model>i7</Model>
+        <Generation>9</Generation>
+      </Architecture>
+      <Clock>2.6GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>16G</Main>
+      <Harddrive>512GB</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="">
+    <Brand>Lenovo</Brand>
+    <Model>IdeaPad</Model>
+    <Year>2020</Year>
+    <Processor Threads="4">
+      <Architecture>
+        <Model>ADM</Model>
+        <Generation>9</Generation>
+      </Architecture>
+      <Clock>2.6GH</Clock>
+      <Cache>4MB</Cache>
+    </Processor>
+    <Storage>
+      <Cache>.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>12G</Main>
+      <Harddrive>1T</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="17.3">
+    <Brand>MSI</Brand>
+    <Model>CUK_GS75</Model>
+    <Year>2020</Year>
+    <Processor Threads="4">
+      <Architecture>
+        <Model>i7</Model>
+        <Generation>9</Generation>
+      </Architecture>
+      <Clock>240HZ</Clock>
+      <Cache>3MS</Cache>
+    </Processor>
+    <Storage>
+      <Cache>.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>32G</Main>
+      <Harddrive>1TB</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="17.3">
+    <Brand>HB</Brand>
+    <Model>UNknow</Model>
+    <Year>2018</Year>
+    <Processor Threads="4">
+      <Architecture>
+        <Model>i7</Model>
+        <Generation>9</Generation>
+      </Architecture>
+      <Clock>3.4GH</Clock>
+      <Cache>3MS</Cache>
+    </Processor>
+    <Storage>
+      <Cache>.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>4G</Main>
+      <Harddrive>1TB</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="15.6">
+    <Brand>Levenovo</Brand>
+    <Model>ThinkPad_E15</Model>
+    <Year>2020</Year>
+    <Processor Threads="8">
+      <Architecture>
+        <Model>i7</Model>
+        <Generation>10</Generation>
+      </Architecture>
+      <Clock>4.8GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>0.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>16G</Main>
+      <Harddrive>1T</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="15.4">
+    <Brand>Dell</Brand>
+    <Model>Inspiron</Model>
+    <Year>2020</Year>
+    <Processor Threads="8">
+      <Architecture>
+        <Model>i7</Model>
+        <Generation>8</Generation>
+      </Architecture>
+      <Clock>4.8GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>0.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>16G</Main>
+      <Harddrive>1T</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="17.3">
+    <Brand>Lenovo</Brand>
+    <Model>Legion_Y540</Model>
+    <Year>2019</Year>
+    <Processor Threads="8">
+      <Architecture>
+        <Model>i7</Model>
+        <Generation>9</Generation>
+      </Architecture>
+      <Clock>4.5GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>0.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>16G</Main>
+      <Harddrive>256GB</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="17.3">
+    <Brand>Lenovo</Brand>
+    <Model>L340-17</Model>
+    <Year>2019</Year>
+    <Processor Threads="8">
+      <Architecture>
+        <Model>i5</Model>
+        <Generation>10</Generation>
+      </Architecture>
+      <Clock>3.7GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>0.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>16G</Main>
+      <Harddrive>1TB</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="17.3">
+    <Brand>ASUS</Brand>
+    <Model>VivoBook</Model>
+    <Year>2020</Year>
+    <Processor Threads="8">
+      <Architecture>
+        <Model>AMD</Model>
+        <Generation>Radeon</Generation>
+      </Architecture>
+      <Clock>2.3GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>0.25G</Cache>
+      <Cache>2G</Cache>
+      <Main>12G</Main>
+      <Harddrive>512GB</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="">
+    <Brand>Lenovo</Brand>
+    <Model>IdeaPad_3</Model>
+    <Year>2020</Year>
+    <Processor Threads="4">
+      <Architecture>
+        <Model>AMD</Model>
+        <Generation>Radeon_Vega</Generation>
+      </Architecture>
+      <Clock>4.1GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>1G</Cache>
+      <Cache>1.5G</Cache>
+      <Main>12GB</Main>
+      <Harddrive>128GB</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="15.6">
+    <Brand>ROG_Zephyrus</Brand>
+    <Model>G15</Model>
+    <Year>2020</Year>
+    <Processor Threads="8">
+      <Architecture>
+        <Model>AMD</Model>
+        <Generation>Ryzen_7</Generation>
+      </Architecture>
+      <Clock>2.6GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>1G</Cache>
+      <Cache>2G</Cache>
+      <Main>16G</Main>
+      <Harddrive>1TB </Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="17.3">
+    <Brand>HP</Brand>
+    <Model>Envy_17t</Model>
+    <Year>2020</Year>
+    <Processor Threads="4">
+      <Architecture>
+        <Model>ADM</Model>
+        <Generation>9</Generation>
+      </Architecture>
+      <Clock>2.6GH</Clock>
+      <Cache>4MB</Cache>
+    </Processor>
+    <Storage>
+      <Cache>.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>64GB</Main>
+      <Harddrive>1T</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="17.3">
+    <Brand>ASUS</Brand>
+    <Model>TUF_Gaming_A17</Model>
+    <Year>2020</Year>
+    <Processor Threads="4">
+      <Architecture>
+        <Model>AMD </Model>
+        <Generation>Ryzen_7</Generation>
+      </Architecture>
+      <Clock>120HZ</Clock>
+      <Cache>3MS</Cache>
+    </Processor>
+    <Storage>
+      <Cache>.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>16GB</Main>
+      <Harddrive>1TB</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="17.3">
+    <Brand>HB</Brand>
+    <Model>Pavilion</Model>
+    <Year>2020</Year>
+    <Processor Threads="4">
+      <Architecture>
+        <Model>i5</Model>
+        <Generation>unknow</Generation>
+      </Architecture>
+      <Clock>3.5GH</Clock>
+      <Cache>3MS</Cache>
+    </Processor>
+    <Storage>
+      <Cache>.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>8GB</Main>
+      <Harddrive>256GB</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="17.3 ">
+    <Brand>NH77DEQ</Brand>
+    <Model>ThinkPad_E15</Model>
+    <Year>2020</Year>
+    <Processor Threads="8">
+      <Architecture>
+        <Model>i7</Model>
+        <Generation>8</Generation>
+      </Architecture>
+      <Clock>4.8GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>0.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>16GB</Main>
+      <Harddrive>1T</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="15.6">
+    <Brand>Razer_Blade</Brand>
+    <Model>Advanced_Gaming_Laptop</Model>
+    <Year>2020</Year>
+    <Processor Threads="8">
+      <Architecture>
+        <Model>i7</Model>
+        <Generation>unknow</Generation>
+      </Architecture>
+      <Clock>4.8GH</Clock>
+      <Cache>128M</Cache>
+    </Processor>
+    <Storage>
+      <Cache>0.5G</Cache>
+      <Cache>1G</Cache>
+      <Main>16G</Main>
+      <Harddrive>1T</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="Testing">
+    <Brand>testing </Brand>
+    <Model>testing</Model>
+    <Year>testing</Year>
+    <Processor Thread="testing">
+      <Architecture>
+        <Model>tesgtin</Model>
+        <Generation>tesint</Generation>
+      </Architecture>
+      <Clock>tenisnt</Clock>
+      <Cache>tenisnt</Cache>
+    </Processor>
+    <Storage>
+      <Cache>tenisnt</Cache>
+      <Main>teninst</Main>
+      <Harddrive>tenint</Harddrive>
+    </Storage>
+  </Computer>
+  <Computer Screen_size="Testing Error">
+    <Brand>Dell</Brand>
+    <Model>Testing</Model>
+    <Year>2022</Year>
+    <Processor Thread="8">
+      <Architecture>
+        <Model>i9</Model>
+        <Generation>10th</Generation>
+      </Architecture>
+      <Clock>3.5GHz</Clock>
+      <Cache>1</Cache>
+    </Processor>
+    <Storage>
+      <Cache>1</Cache>
+      <Cache>2</Cache>
+      <Cache>0.5</Cache>
+      <Main>32Gb</Main>
+      <Harddrive>512Gb</Harddrive>
+    </Storage>
+  </Computer>
+</Computers>
